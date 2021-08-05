@@ -79,6 +79,9 @@ Copy Mopub Test Ad ID's to Your String.xml file?
     <string name="mop_ub_banner_test_id" translatable="false">b195f8dd8ded45fe847ad89ed1d016da</string>
     <string name="mop_ub_interstitial_test_id" translatable="false">24534e1901884e398f1253216226017e</string>
     <string name="mop_ub_native_test_id" translatable="false">11a17b188668469fb0412708c3d16813</string>
+    
+        <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>-->
+
 
 ```
 
