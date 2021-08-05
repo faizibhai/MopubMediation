@@ -4,17 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Second_Activity"
+    android:id="@+id/mainlayout"
+    >
 
-    <Button
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Show Interstetial"
-        android:onClick="show_interstetial"
-        />
 
-    // banner layout
+    <ScrollView
+        android:id="@+id/nativeLayout"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/descriptionedit_layout"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+       android:layout_centerVertical="true">
+
+    </ScrollView>
     <LinearLayout
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
@@ -35,5 +42,4 @@
             android:orientation="vertical"/>
 
     </LinearLayout>
-
 </RelativeLayout>
